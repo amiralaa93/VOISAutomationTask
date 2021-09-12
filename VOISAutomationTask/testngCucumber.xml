@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test Automation Suite">
+
+    <test name="Test On Chrome">
+        <parameter name="Browser" value="Chrome"/>
+        <parameter name="ENV" value="TEST"/>
+        <parameter name="URL" value="http://www.colourlovers.com/"/>
+
+        <classes>
+            <class name="cucumber.runner.TestRunner"/>
+        </classes>
+    </test>
+
+</suite>
